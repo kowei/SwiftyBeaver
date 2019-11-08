@@ -8,6 +8,7 @@
 //
 
 import Foundation
+import Swift
 
 public class ConsoleDestination: BaseDestination {
 
@@ -63,7 +64,7 @@ public class ConsoleDestination: BaseDestination {
                     NSLog("%@", str)
                 #endif
             } else {
-                print(str)
+                Swift.print(str)
             }
         }
         return formattedString
